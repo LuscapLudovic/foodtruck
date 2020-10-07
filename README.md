@@ -29,7 +29,7 @@ Cela va créer la table et la remplir avec des données de test.
 4. Créer le fichier '.env':
   ```ini
   SERVER_ADDR=127.0.0.1:8080
-  PG.USER=password
+  PG.USER=food_user
   PG.PASSWORD=walahJeDonnePasMonMdp
   PG.HOST=127.0.0.1
   PG.PORT=5432
