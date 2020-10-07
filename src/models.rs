@@ -8,4 +8,5 @@ pub struct Position {
     pub id: i32,
     pub longitude: f32,
     pub latitude: f32,
+    pub nom: String,
 }
