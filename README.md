@@ -4,19 +4,22 @@ je prend 30%
 ## Instruction d'installation
 
 1. Créer un utilisateur
+
+La première partie n'est pas indispensable si vous avez déjà un utilisateur de créer.  
+
     ```shell
     createuser -P food_user
     ```
-La première partie n'est pas indispensable si vous avez déjà un utilisateur de créer.    
+  
 
 2. Créer la base de données.
+
+Entrez votre mot de passe et suivez les instructions.
+ici "food_user" est votre identifiant de pgsql, vous pouvez le remplacer par le votre.
 
     ```shell
     createdb -O food_user foodtruck
     ```
-
-Entrez votre mot de passe et suivez les instructions.
-ici "food_user" est votre identifiant de pgsql, vous pouvez le remplacer par le votre.
 
 3. Initialiser la base de données.
 
