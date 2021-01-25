@@ -7,7 +7,7 @@ je prend 30%
 
 La première partie n'est pas indispensable si vous avez déjà un utilisateur de créer.  
 
-    ```shell
+    ```
     createuser -P food_user
     ```
   
@@ -17,13 +17,13 @@ La première partie n'est pas indispensable si vous avez déjà un utilisateur d
 Entrez votre mot de passe et suivez les instructions.
 ici "food_user" est votre identifiant de pgsql, vous pouvez le remplacer par le votre.
 
-    ```shell
+    ```
     createdb -O food_user foodtruck
     ```
 
 3. Initialiser la base de données.
 
-    ```shell
+    ```
     psql -f sql/schema.sql foodtruck
     ```
     
@@ -42,7 +42,7 @@ Cela va créer la table et la remplir avec des données de test.
   
 5. Lancer le serveur:
 
-  ```shell
+  ```
   cargo run
   ```
   
